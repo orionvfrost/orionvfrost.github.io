@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | SCST1133 Data Engineering E-Portfolio</title>
+  <meta name="description" content="E-portfolio for SCST1133 Data Engineering Ecosystem, Universiti Teknologi Malaysia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="layout">
+  <aside class="side">
+    <!-- Official UTM Faculty of Computing logo: download it, save as images/utm-fc-logo.png.
+         Do NOT stretch, recolour or crop it. -->
+    <img class="logo" src="images/utm-fc-logo.png" alt="UTM Faculty of Computing logo">
+    <p class="who">Your Name</p>
+    <p class="sub">SCST1133 Data Engineering Ecosystem</p>
+    <nav aria-label="Portfolio sections">
+      <a href="#home">Home</a>
+      <a href="#journey">Learning journey</a>
+      <a href="#work">Selected work</a>
+      <a href="#summary">Course summary</a>
+      <a href="#sources">Sources</a>
+    </nav>
+  </aside>
+
+  <main id="main">
+
+    <!-- A. HOME AND PROFESSIONAL PROFILE -->
+    <section id="home" class="hero">
+      <img class="photo" src="images/profile-photo.jpg" alt="Portrait of Your Name">
+      <div>
+        <h1>Your Name</h1>
+        <p class="headline">Computing student exploring how data moves from source to decision.</p>
+        <p>Write 2-3 sentences: your programme, why data engineering interests you, and what you want to build.</p>
+        <ul class="facts">
+          <li><strong>Programme:</strong> [Your programme], Universiti Teknologi Malaysia</li>
+          <li><strong>Skills:</strong> [e.g. Python, SQL, Git, Figma]</li>
+          <li><strong>Interests:</strong> [e.g. data pipelines, cloud, cybersecurity]</li>
+        </ul>
+        <p class="links">
+          <a href="https://github.com/YOUR-USERNAME">GitHub</a>
+          <a href="https://www.linkedin.com/in/YOUR-PROFILE">LinkedIn (optional)</a>
+        </p>
+        <!-- Do not add phone number, home address or any tokens/passwords. -->
+      </div>
+    </section>
+
+    <!-- B. LEARNING JOURNEY -->
+    <section id="journey">
+      <h2>Learning journey</h2>
+      <p class="lead">The course follows data through six stages. Each stage below links to the work that shows it.</p>
+      <ol class="pipeline">
+        <li><h3>Foundations</h3><p>Computing concepts and digital tools. [One sentence: what you learned, e.g. PC assembly.]</p></li>
+        <li><h3>Landscape</h3><p>Data engineering and the data landscape. [One sentence.]</p></li>
+        <li><h3>Ecosystem</h3><p>Industry roles and collaboration. [Link to Industry Talk / Visit.]</p></li>
+        <li><h3>Lifecycle</h3><p>Acquisition and the engineering workflow. [Link to Lifecycle Video.]</p></li>
+        <li><h3>Responsibility</h3><p>Governance, management and ethics. [One sentence.]</p></li>
+        <li><h3>Innovation</h3><p>Emerging areas and design thinking. [Link to Figma project.]</p></li>
+      </ol>
+    </section>
+
+    <!-- C + D. SELECTED WORK AND REFLECTIONS -->
+    <section id="work">
+      <h2>Selected work and reflections</h2>
+      <p class="lead">Every artifact has the same five-part reflection. Copy one <code>&lt;article&gt;</code> block per artifact.</p>
+
+      <article class="artifact" id="figma">
+        <header>
+          <h3>Design Thinking and Figma project</h3>
+          <p class="tags"><span class="tag">CLO3</span><span class="tag">Innovation</span></p>
+        </header>
+        <img src="images/figma-screenshot.png" alt="Screenshot of the Figma prototype showing [describe it]">
+        <p><a href="https://www.figma.com/YOUR-LINK">Open the prototype</a></p>
+        <p><strong>The problem and my contribution:</strong> [Problem, your idea, what you personally did.]</p>
+        <dl class="reflect">
+          <dt>What I learned</dt><dd>[Concept or tool, in your own words.]</dd>
+          <dt>Challenge or decision</dt><dd>[One real challenge and how you responded.]</dd>
+          <dt>Link to course</dt><dd>[Which CLO and concept this shows, and why.]</dd>
+          <dt>What I would improve</dt><dd>[A specific next step.]</dd>
+        </dl>
+      </article>
+
+      <article class="artifact" id="talk">
+        <header>
+          <h3>Industry Talk</h3>
+          <p class="tags"><span class="tag">CLO1</span><span class="tag">Ecosystem</span></p>
+        </header>
+        <p><a href="artifacts/industry-talk.pdf">Download poster / report (PDF)</a></p>
+        <p><strong>Key lessons:</strong> [What the speaker said and how it connects to data engineering practice.]</p>
+        <dl class="reflect">
+          <dt>What I learned</dt><dd>[ ]</dd>
+          <dt>Challenge or decision</dt><dd>[ ]</dd>
+          <dt>Link to course</dt><dd>[ ]</dd>
+          <dt>What I would improve</dt><dd>[ ]</dd>
+        </dl>
+      </article>
+
+      <article class="artifact" id="visit">
+        <header>
+          <h3>Industry Visit</h3>
+          <p class="tags"><span class="tag">CLO1</span><span class="tag">Ecosystem</span></p>
+        </header>
+        <img src="images/industry-visit.jpg" alt="Photo from the industry visit at [place]">
+        <p><strong>Observations:</strong> [Only use approved photographs.]</p>
+        <dl class="reflect">
+          <dt>What I learned</dt><dd>[ ]</dd>
+          <dt>Challenge or decision</dt><dd>[ ]</dd>
+          <dt>Link to course</dt><dd>[ ]</dd>
+          <dt>What I would improve</dt><dd>[ ]</dd>
+        </dl>
+      </article>
+
+      <article class="artifact" id="video">
+        <header>
+          <h3>Data Engineering Lifecycle video</h3>
+          <p class="tags"><span class="tag">CLO2</span><span class="tag">Lifecycle</span></p>
+        </header>
+        <div class="video">
+          <!-- Replace VIDEO_ID with your YouTube video ID -->
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Data Engineering Lifecycle video" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p><strong>Lifecycle decisions:</strong> [Explain the stages you showed and why.]</p>
+        <dl class="reflect">
+          <dt>What I learned</dt><dd>[ ]</dd>
+          <dt>Challenge or decision</dt><dd>[ ]</dd>
+          <dt>Link to course</dt><dd>[ ]</dd>
+          <dt>What I would improve</dt><dd>[ ]</dd>
+        </dl>
+      </article>
+
+      <article class="artifact" id="acquisition">
+        <header>
+          <h3>Data acquisition work</h3>
+          <p class="tags"><span class="tag">CLO2</span><span class="tag">Lifecycle</span></p>
+        </header>
+        <p><strong>Dataset and method:</strong> [Source, collection method, tools, data quality checks, output.]</p>
+        <dl class="reflect">
+          <dt>What I learned</dt><dd>[ ]</dd>
+          <dt>Challenge or decision</dt><dd>[ ]</dd>
+          <dt>Link to course</dt><dd>[ ]</dd>
+          <dt>What I would improve</dt><dd>[ ]</dd>
+        </dl>
+      </article>
+    </section>
+
+    <!-- E. COURSE LEARNING SUMMARY -->
+    <section id="summary">
+      <h2>Course learning summary</h2>
+      <p>[Knowledge and skills you gained.]</p>
+      <p>[How the course changed your understanding of data engineering.]</p>
+      <p>[Areas you want to develop further.]</p>
+    </section>
+
+    <!-- F. SOURCES AND ACKNOWLEDGEMENTS -->
+    <section id="sources">
+      <h2>Sources and acknowledgements</h2>
+      <ul>
+        <li>UTM Faculty of Computing logo: Universiti Teknologi Malaysia.</li>
+        <li>Template structure: SCST1133 e-portfolio guidelines by Dr Shahizan.</li>
+        <li>[Datasets, images, code, fonts (Bricolage Grotesque, Source Sans 3 via Google Fonts), other credits.]</li>
+        <li>[AI tool use: state which tool, for what, and how you checked it, following course instructions.]</li>
+      </ul>
+    </section>
+
+    <footer><p>&copy; 2026 Your Name. SCST1133, Faculty of Computing, UTM.</p></footer>
+  </main>
+</div>
+</body>
+</html>
